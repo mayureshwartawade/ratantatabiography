@@ -1,0 +1,84 @@
+/* poppins font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: poppins; */
+}
+
+
+.container {
+    background-color: #e5e5fd; /* Background color */
+    min-height: 100vh;
+     border: 10px solid #1d1e4c; /* Border color */
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top_section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top_section h1 {
+    font-size: 60px;
+    font-family: serif;
+    font-weight: 600;
+    color: #1d1e4c;
+    text-transform: uppercase;
+}
+
+.top_section h4 {
+    font-size: 30px;
+    text-align: end;
+}
+
+.image_container,img {
+    width: 300px;
+    height: 320px;
+    border-radius: 50%;
+} 
+
+.about_section {
+    margin-top: 50px;
+}
+
+.about_section h2 {
+    font-size: 50px;
+    font-family: lato;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.1px;
+    font-family: roboto;
+}
+
+.biographies_section h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.biographies_section p {
+    font-size: 20px;
+    text-align: left;
+    font-family: roboto;
+}
+
+hr {
+   height: 5px;
+   background-color: #1d1e4c;
+}
